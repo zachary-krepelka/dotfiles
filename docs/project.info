@@ -1,0 +1,76 @@
+# FILENAME: project.info
+# AUTHOR: Zachary Krepelka
+# DATE: Thursday, November 19th, 2026
+# ORIGIN: https://github.com/zachary-krepelka/dotfiles.git
+
+./makefile
+
+	This file functions as a task runner.
+
+./docs
+
+	This directory contains documentation.
+
+./docs/project.info
+
+	This file documents what every file and
+	directory in this repository is for. It
+	is an input to the tree command,
+	although it may be viewed by itself.
+
+./docs/README.md
+
+	You should read this before anything
+	else. GitHub renders this file on the
+	repository home page. It may also be
+	read as is in a pager like less.
+
+./docs/images
+
+	This directory contains
+	markdown-embedded images.
+
+./docs/inventory/packages
+
+	Each file in this directory is named
+	after a package manager and contains
+	line-delimited identifiers recognized by
+	that package manager.
+
+./docs/tutorials
+
+	This directory contains technical
+	tutorials written in markdown for my own
+	future reference.
+
+./packs
+
+	This directory contains units of
+	configuration packaged per software.
+
+./packs/system-wide
+
+	This directory contains system-wide
+	configuration packages which should be
+	deployed relative to the root directory.
+
+./packs/user-specific
+
+	This directory contains user-specific
+	configuration packages which should be
+	deployed relative to the user's $HOME
+	directory.
+
+./utils
+
+	This directory contains
+	post-installation utility scripts.
+
+./utils/cold
+
+	These are used occasionally.
+
+./utils/hot
+
+	These are used routinely and available
+	on path for quick access.
