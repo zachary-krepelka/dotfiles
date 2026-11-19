@@ -30,6 +30,15 @@
 	This directory contains
 	markdown-embedded images.
 
+./docs/images/lain.png
+
+	This file was obtained from the image
+	sharing website imgur.com, and I do not
+	claim any rights to it. I use it as the
+	leading image in the readme file to
+	entice the reader.
+	Source: https://imgur.com/eeHqyyp
+
 ./docs/inventory/packages
 
 	Each file in this directory is named
